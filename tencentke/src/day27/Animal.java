@@ -1,4 +1,4 @@
-﻿package day27;
+package day27;
 
 public class Animal
 {

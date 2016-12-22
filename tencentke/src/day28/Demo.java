@@ -1,4 +1,4 @@
-﻿package day28;
+package day28;
 
 public class Demo
 {

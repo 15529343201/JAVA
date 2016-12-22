@@ -1,5 +1,12 @@
 package day59;
-
+/*
+ * 死锁问题:
+ *    A线程需要申请资源1才能继续执行，而资源1被线程B所占有。
+ *    而线程B需要申请资源2才能继续执行，而资源2被线程A所占有
+ *    
+ *    线程A现在占有资源2，需要请求资源1
+ *    线程B现在占有资源1，需要请求资源2
+ */
 public class Test 
 {
 	public static void main(String[] args)

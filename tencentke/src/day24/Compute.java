@@ -1,4 +1,4 @@
-﻿package day24;
+package day24;
 
 public class Compute 
 {
