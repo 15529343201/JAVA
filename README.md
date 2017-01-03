@@ -20,3 +20,7 @@ This is a java repository
 ![image](https://github.com/15529343201/JAVA/blob/master/image/8.PNG)
 # 计算正五边形的面积和周长
 ![image](https://github.com/15529343201/JAVA/blob/master/image/9.PNG)
+# 使用公历类GregorianCalendar
+![image](https://github.com/15529343201/JAVA/blob/master/image/10.PNG)
+# 字符串替换
+![image](https://github.com/15529343201/JAVA/blob/master/image/11.PNG)
