@@ -24,3 +24,5 @@ This is a java repository
 ![image](https://github.com/15529343201/JAVA/blob/master/image/10.PNG)
 # 字符串替换
 ![image](https://github.com/15529343201/JAVA/blob/master/image/11.PNG)
+# 最大公约数和最小公倍数
+![image](https://github.com/15529343201/JAVA/blob/master/image/12.PNG)
