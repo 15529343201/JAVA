@@ -1,21 +1,30 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Scanner;
+
 public class Main
 {
 	public static void main(String[] args)
 	{
-		String x=null;
+		ArrayList<String> str=new ArrayList<String>();
 		Scanner input=new Scanner(System.in);
-		String str="";
-		x=input.nextLine();
-		while(!x.equals("end"))
+		int len=0;
+		str.add(input.nextLine());
+		while(str.get(len).compareTo("end")!=0)
 		{
-			str+=x;
-			x=input.nextLine();
+			len++;
+			str.add(input.nextLine());
 		}
 		String a=input.nextLine();
 		String b=input.nextLine();
+		String[] ss=new String[len];
+		for(int i=0;i<len;i++)
+		{
+			ss[i]=str.get(i).replace(a,b);
+		}
+		for(int i=0;i<len;i++)
+		{
+			System.out.println(ss[i]);
+		}
 		input.close();
-		String str1=str.replace(a, b+"");
-		System.out.println(str1);
 	}
 }
